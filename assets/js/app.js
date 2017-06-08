@@ -30,7 +30,7 @@ $(document).ready(function() {
             message
 
         });
-        $(".alert-success").css('visibility', 'visible').fadeTo(4000, 0);
+      
         document.getElementById('from_name').value = "";
         document.getElementById('from_email').value = "";
         document.getElementById('comments').value = "";

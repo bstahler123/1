@@ -516,4 +516,7 @@ p {
   color:#aaa;
   margin-bottom:0;
 }
-.contact-header{ color: white; }
+
+.form-control {
+  color: rgb(62,140,228);
+}
