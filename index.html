@@ -7,21 +7,14 @@
     <title>Porfolio</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ewert">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Contact-FormModal-Contact-Form-with-Google-Map.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean1.css">
-    <link rel="stylesheet" href="assets/css/Projects-Clean.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 </head>
 
@@ -34,7 +27,6 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
-                        
                         <li role="presentation"><a href="#skills-header">Skills/Projects </a></li>
                         <li role="presentation"><a href="#message">Contact </a></li>
                     </ul>
@@ -84,17 +76,19 @@
             <div class="intro">
                 <h1 class="text-center projects-header" data-aos="fade-up" data-aos-once="true"><span style="text-decoration: underline; color:rgb(62,140,228);">P</span>rojects </h1></div>
             <div class="row projects">
-                <div class="col-lg-4 col-md-4 col-sm-12 item"><a href="https://infinite-retreat-23791.herokuapp.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.42 PM.png" data-bs-hover-animate="pulse"></a>
+                <div class="col-lg-4 col-md-4 col-sm-12 item">
+                    <a href="https://infinite-retreat-23791.herokuapp.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.42 PM.png" data-bs-hover-animate="pulse"></a>
                     <h3 id="Project-names" class="Project-names">Let's Go!</h3>
                     <p class="description">The Let's go! app demonstrates usage of geo technologies, google maps api and google places api. This app finds the users geolocation and a restaurant nearby based on user input.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 item"><a href="http://www.protextninja.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.05 PM.png" data-bs-hover-animate="pulse"></a>
+                <div class="col-lg-4 col-md-4 col-sm-12 item">
+                    <a href="http://www.protextninja.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.05 PM.png" data-bs-hover-animate="pulse"></a>
                     <h3 id="project-names" class="Project-names">Pro Text Ninja</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <p class="description">The ProTextNinja app demonstrates useage of Twilio, MongoDB and Javascript. You can send excuses to yourself to get out of sticky situations or timed text for a reminder. Note: ProtextNinja must register your phone number before useage due to Twilio legalities. </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item"><img class="img-responsive rounded-image" src="assets/img/loft.jpg" data-bs-hover-animate="pulse">
-                    <h3 class="Project-names">Project Name</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                    <h3 class="Project-names">Your Project Here</h3>
+                    <p class="description">Have an idea for an app? Get in contact with me and I'll see if I can help 8) </p>
                 </div>
             </div>
         </div>
@@ -129,22 +123,7 @@
                                             <input class="form-control" type="email" name="from_email" required="" placeholder="Email Address" id="modal_from_email">
                                         </div>
                                         <div class="row">
-                                            <div class="col-sm-6">
-                                                <div class="form-group has-feedback">
-                                                    <label class="control-label" for="modal_from_phone">Phone</label>
-                                                    <input class="form-control" type="text" name="from_phone" placeholder="Primary Phone" id="modal_from_phone">
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="form-group">
-                                                    <label class="control-label" for="modal_calltime">Best Time to Call</label>
-                                                    <select class="form-control" name="Call Time" id="modal_calltime">
-                                                        <option value="Morning" selected="">Morning</option>
-                                                        <option value="Afternoon">Afternoon</option>
-                                                        <option value="Evening">Evening</option>
-                                                    </select>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="modal_comments">Comments</label>
@@ -162,8 +141,7 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="static-map">
-                                                    <a href="https://www.google.com/maps/place/2+15th+St+NW+Washington+DC+20024" target="_blank"><img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12"
-                                                        alt="Google Map of Washington Monument"></a>
+                                                    <a href="https://www.google.com/maps/place/2+15th+St+NW+Washington+DC+20024" target="_blank"><img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?autoscale=2&amp;size=600x210&amp;maptype=roadmap&amp;format=png&amp;visual_refresh=true&amp;markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C582+1801+W+International+Speedway+Blvd+Daytona+Beach+FL+32114&amp;zoom=12" alt="Google Map of Washington Monument"></a>
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
@@ -195,19 +173,17 @@
                 </div>
             </div>
             <form class="form1" action="javascript:void();" method="get" id="contactForm">
-               
+                
                 <div class="row">
                     <div class="col-md-6">
                         <div id="successfail"></div>
                     </div>
                 </div>
                 <div class="row">
-               
                     <div class="col-md-6" id="message">
                         <fieldset>
                             <legend class="contact-headers"><i class="fa fa-envelope contact-icons"></i> Contact Me</legend>
                         </fieldset>
-               
                         <div class="form-group has-feedback">
                             <label class="control-label contact-labels" for="from_name">Name</label>
                             <input class="form-control form-boxes" type="text" name="from_name" required="" placeholder="Full Name" id="from_name" tabindex="-1">
@@ -222,9 +198,7 @@
                         </div>
                         <div class="form-group">
                             <button class="btn btn-primary btn-block" value="submit" type="submit">Send <i class="fa fa-chevron-circle-right"></i></button>
-
                         </div>
-                
                         <hr class="visible-xs-block visible-sm-block">
                     </div>
                     <div class="col-md-6">
@@ -263,17 +237,14 @@
         <footer>
             <div class="social"><a href="https://github.com/bstahler123"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/bradley-anthony-60392b135/"><i class="icon ion-social-linkedin"></i></a>
                 <a href="https://www.facebook.com/brad.stahler.9"><i class="icon ion-social-facebook"></i></a><a href="https://ucfjanvw.slack.com/team/bstahler123"><i class="fa fa-slack"></i></a></div>
-           
             <p class="copyright">© Bradley Stahler 2017</p>
         </footer>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
-   
     <script src="assets/js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
-    
 </body>
 
 </html>
