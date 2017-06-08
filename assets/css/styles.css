@@ -1,0 +1,187 @@
+.container-fluid.top-container {
+  height:auto;
+}
+
+.row.text-center.main-header {
+  background-color:rgb(18,94,147);
+  background-repeat:no-repeat;
+  background-size:cover;
+  margin-bottom:0px;
+  height:800px;
+}
+
+.text-center {
+  color:rgb(1,1,1);
+  font-family:Arsenal, sans-serif;
+  padding-top:44px;
+  padding-bottom:50px;
+  margin-top:0px;
+  margin-bottom:-31px;
+}
+
+.text-center {
+  margin-bottom:37px;
+}
+
+.row {
+  margin-bottom:10px;
+}
+
+.col-md-4 {
+  font-size:25px;
+}
+
+.icon.ion-social-html5 {
+  color:rgb(249,3,3);
+  font-size:175px;
+}
+
+.icon.ion-social-css3 {
+  color:#0114bb;
+  font-size:175px;
+}
+
+p {
+  color:rgb(1,1,1);
+  font-family:Arsenal, sans-serif;
+  font-size:25px;
+  height:35px;
+}
+
+.icon.ion-social-javascript {
+  color:rgb(255,209,48);
+  font-size:175px;
+}
+
+.projects-horizontal {
+  background-color:rgb(254,254,254);
+}
+
+.name.project-names {
+  font-family:Arsenal, sans-serif;
+  color:rgb(1,1,1);
+}
+
+.contact-headers {
+  color:rgb(255,255,255);
+  font-family:Arsenal, sans-serif;
+}
+
+.fa.fa-envelope.contact-icons {
+  color:rgb(62,140,228);
+}
+
+.btn.btn-primary.btn-block {
+  background-color:rgb(62,140,228);
+  color:rgb(255,255,255);
+  font-size:22px;
+  font-family:Arsenal, sans-serif;
+}
+
+.row.text-center.main-header {
+  background:linear-gradient( rgba(1,1,1,0.6), rgba(1,1,1,0.6)), url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
+  background-position:center;
+}
+
+.col-md-12.header-name {
+  margin-top:60px;
+}
+
+#header-name-text {
+  margin-top:50px;
+  color:rgb(255,254,253);
+  font-size:28px;
+  font-family:Arsenal, sans-serif;
+}
+
+#front-pic {
+  height:210px;
+  width:185px;
+  margin-top:40px;
+  border:4px solid white;
+}
+
+.col-md-12.front-title {
+  padding-right:0px;
+  padding-left:0px;
+  margin-top:51px;
+}
+
+#front-end {
+  background-color:#ffffff;
+  color:rgb(6,6,6);
+  padding-bottom:17px;
+  padding-top:8px;
+  margin-top:30px;
+  font-family:Arsenal, sans-serif;
+  margin-bottom:30px;
+}
+
+.container-fluid.projects-container {
+  background-color:rgb(207,207,207);
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.text-center.projects-header {
+  font-family:Arsenal, sans-serif;
+  margin-bottom:0px;
+}
+
+#Project-names {
+  font-family:Arsenal, sans-serif;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  font-family:Arsenal, sans-serif;
+}
+
+.container-fluid.contact-container {
+  background-color:rgb(50,49,49);
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.contact-icons {
+  color:rgb(62,140,228);
+}
+
+.contact-labels {
+  color:white;
+  font-size:18px;
+}
+
+.form-boxes {
+  background-color:rgb(86,86,86);
+}
+
+.contact-form-text {
+  color:white;
+}
+
+.text-center.projects-header {
+  font-family:Arsenal, sans-serif;
+  font-size:35px;
+}
+
+.rounded-image {
+  border-radius:2%;
+  
+
+}
+
+#skills-line {
+  padding:0px;
+}
+
+#skills-header {
+  margin-bottom:0px;
+}
+
+.skills-fix {
+  height:80px;
+}
+.alert-success {
+    display: none;
+}
+
