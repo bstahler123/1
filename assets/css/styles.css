@@ -264,7 +264,7 @@ p {
 }
 
 .row.text-center.main-header {
-    background: linear-gradient( rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("http://mobo.co.uk/wp-content/uploads/2014/11/Website-Design-Background.png");
+    background: linear-gradient( rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url(../img/Website-Design-Background.png);
     background-position: center;
 }
 
@@ -572,3 +572,4 @@ p {
 .btn:focus, .btn:active:focus, .btn.active:focus {
   outline: 0 none;
 }
+
