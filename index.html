@@ -80,15 +80,26 @@
                     <a href="https://infinite-retreat-23791.herokuapp.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.42 PM.png" data-bs-hover-animate="pulse"></a>
                     <h3 id="Project-names" class="Project-names">Let's Go!</h3>
                     <p class="description">The Let's go! app demonstrates usage of geo technologies, google maps api and google places api. This app finds the users geolocation and a restaurant nearby based on user input.</p>
+                    <div class="project-buttons">
+                        <button class="btn btn-info button-projects">View App details</button>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item">
                     <a href="http://www.protextninja.com/"><img class="img-responsive rounded-image" src="assets/img/Screen Shot 2017-06-06 at 11.48.05 PM.png" data-bs-hover-animate="pulse"></a>
                     <h3 id="project-names" class="Project-names">Pro Text Ninja</h3>
-                    <p class="description">The ProTextNinja app demonstrates useage of Twilio, MongoDB and Javascript. You can send excuses to yourself to get out of sticky situations or timed text for a reminder. Note: ProtextNinja must register your phone number before useage due to Twilio legalities. </p>
+                    <div>
+                        <p class="description">The ProTextNinja app demonstrates useage of Twilio, MongoDB and Javascript. You can send excuses to yourself to get out of sticky situations or timed text for a reminder. </p>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-info button-projects" data-target="#user-form1" data-toggle="modal">View App details</button>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 item"><img class="img-responsive rounded-image" src="assets/img/loft.jpg" data-bs-hover-animate="pulse">
                     <h3 class="Project-names">Your Project Here</h3>
                     <p class="description">Have an idea for an app? Get in contact with me and I'll see if I can help 8) </p>
+                    <div class="project-buttons">
+                        <button class="btn btn-info button-projects">View App details</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -123,7 +134,6 @@
                                             <input class="form-control" type="email" name="from_email" required="" placeholder="Email Address" id="modal_from_email">
                                         </div>
                                         <div class="row">
-                                            
                                         </div>
                                         <div class="form-group">
                                             <label class="control-label" for="modal_comments">Comments</label>
@@ -148,21 +158,9 @@
                                                 <fieldset>
                                                     <legend><i class="fa fa-envelope"></i> Contact Us</legend>
                                                 </fieldset>
-                                                <div><span><strong>Name</strong></span></div>
-                                                <div><span>email@address.com</span></div>
-                                                <div><span>www.awebsite.com</span></div>
                                                 <hr class="visible-xs-block">
                                             </div>
                                             <div class="col-sm-6">
-                                                <fieldset>
-                                                    <legend><i class="fa fa-location-arrow"></i> Our Address</legend>
-                                                </fieldset>
-                                                <div><span><strong>Office Name</strong></span></div>
-                                                <div><span>55 Icannot Dr.</span></div>
-                                                <div><span>Daytona Beach, FL 81500</span></div>
-                                                <div>
-                                                    <abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -173,7 +171,6 @@
                 </div>
             </div>
             <form class="form1" action="javascript:void();" method="get" id="contactForm">
-                
                 <div class="row">
                     <div class="col-md-6">
                         <div id="successfail"></div>
@@ -232,19 +229,49 @@
                 </div>
             </form>
         </div>
+
+        <!-- Modals --> 
+        <div class="modal" id="user-form1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Pro Ninja Text</h3>
+
+                    <div class="modal-body">
+                        <h4>Technologies used in this app</h4>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>MongoDB</li>
+                        <li>Bootstrap</li>
+                        <li>Twillio</li>
+                     <ul>   
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="https://github.com/bstahler123"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/bradley-anthony-60392b135/"><i class="icon ion-social-linkedin"></i></a>
-                <a href="https://www.facebook.com/brad.stahler.9"><i class="icon ion-social-facebook"></i></a><a href="https://ucfjanvw.slack.com/team/bstahler123"><i class="fa fa-slack"></i></a></div>
-            <p class="copyright">© Bradley Stahler 2017</p>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-animation.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+
+
+
+
+
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="https://github.com/bstahler123"><i class="icon ion-social-github"></i></a><a href="https://www.linkedin.com/in/bradley-anthony-60392b135/"><i class="icon ion-social-linkedin"></i></a>
+                    <a href="https://www.facebook.com/brad.stahler.9"><i class="icon ion-social-facebook"></i></a><a href="https://ucfjanvw.slack.com/team/bstahler123"><i class="fa fa-slack"></i></a></div>
+                <p class="copyright">© Bradley Stahler 2017</p>
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/bs-animation.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
 </body>
 
 </html>

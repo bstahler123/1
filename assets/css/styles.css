@@ -184,8 +184,8 @@
 .text-center {
   color:rgb(1,1,1);
   font-family:Arsenal, sans-serif;
-  padding-top:44px;
-  padding-bottom:50px;
+  padding-top:40px;
+  padding-bottom:20px;
   margin-top:0px;
   margin-bottom:-31px;
 }
@@ -288,10 +288,11 @@ p {
   margin-bottom:30px;
 }
 
-.container-fluid.projects-container {
+.projects-container {
   background-color:rgb(207,207,207);
   padding-top:20px;
-  padding-bottom:20px;
+  
+  
 }
 
 .text-center.projects-header {
@@ -308,8 +309,8 @@ p {
   font-family:Arsenal, sans-serif;
 }
 
-.container-fluid.contact-container {
-  background-color:rgb(50,49,49);
+ .contact-container {
+  background-color:rgb(33, 33, 33);
   padding-top:20px;
   padding-bottom:20px;
 }
@@ -413,7 +414,9 @@ p {
 .projects-clean .item .description {
   font-size:15px;
   margin-top:15px;
-  margin-bottom:0;
+  height: 70px;
+
+ 
 }
 .map-clean {
   color:#313437;
@@ -520,3 +523,23 @@ p {
 .form-control {
   color: rgb(62,200,300);
 }
+.project-buttons{ 
+margin-top: auto;
+
+}
+ .button-projects{ 
+ border-radius: 50px; 
+ margin-top: 10px;
+ background-color: rgb(62,140,228); 
+
+}
+@media (max-width:990px){
+ .projects-clean .item .description {
+  font-size:15px;
+  margin-top:15px;
+  height: 40px;
+
+ 
+}
+}
+
